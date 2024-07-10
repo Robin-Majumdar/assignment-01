@@ -28,7 +28,6 @@ nav{
     cursor: pointer;
  }
  header{
-    border: 2px solid green;
     background-image: url(../assets/Hero-bg.png);
     background-size: cover;
     background-position: center;
@@ -74,7 +73,6 @@ nav{
 /* Why Web Development SECTION Is Start Hear */
 .dev-content{
     padding: 50px;
-    border: 2px solid green;
     border-radius: 5px;
     background-color: #e7e5e5;
     width: 1200px;
@@ -179,3 +177,32 @@ section button{
 }
 
 /* <!-- I need Support section The End --> */
+
+
+
+footer{
+    margin-top: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #aaaaaa;
+}
+
+footer p {
+    margin-left: 20px;
+    font-weight: 400;
+    font-size: 15px;
+}
+
+footer .social-icons {
+    margin-right: 30px;
+    display: flex;
+    gap: 10px;
+}
+
+footer .social-icons img {
+    width: 24px;
+    height: 24px;
+}
