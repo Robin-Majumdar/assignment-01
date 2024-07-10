@@ -52,8 +52,8 @@ nav{
     font-size: 40px;
     margin-bottom: 20px;
 }
-.header-content p{
-    font-size: 15px;
+.header-content h2{
+    font-size: 30px;
     margin-top: 60px;
     margin-bottom: 20px ;
 }
@@ -82,6 +82,9 @@ nav{
 .content-title {
     text-align: center;
     padding: 20px;
+}
+.content-title p{
+    text-align:justify;
 }
 
 #section-content{
@@ -126,6 +129,25 @@ section button{
 }
 /* Why Web Development SECTION The End! */
 
+/* <!-- My Inspiration section is start hear --> */
+
+.video-section{
+    width: 1200px;
+    height: 100%;
+    margin-top: 50px;
+    margin: 0 auto;
+    background-color: #E7E5E5;
+    border-radius: 10px;
+}
+.video-continer{
+    padding: 20px 20px;
+    text-align: center;
+    margin: 20px 0;
+    max-width: 100%;
+}
+
+/* <!-- My Inspiration section is The End --> */
+
 /* <!-- My Current Target is start Hear --> */
 
 .current-target{
@@ -153,18 +175,21 @@ section button{
     font-size: 15px;
 }
 .html-content{
+    text-align:justify;
     padding: 10px;
     background-color: #FF4C1E0D;
     box-shadow: 0px 6px 50px 0px black;
     border-radius: 5px;
 }
 .css-content{
+    text-align:justify;
     padding: 10px;
     background-color: #004CE80D;
     box-shadow: 0px 6px 50px 0px black;
     border-radius: 5px;
 }
 .java-content{
+    text-align:justify;
     padding: 10px;
     background-color: #FFDF000D;
     box-shadow: 0px 6px 50px 0px black;
