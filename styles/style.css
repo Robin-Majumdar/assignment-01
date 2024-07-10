@@ -131,7 +131,51 @@ section button{
 /* <!-- I need Support section Start --> */
 
 .support-section{
-    
+    background: url(../assets/handshake.jpg) no-repeat center center/cover;
+    margin: 0 auto;
+    margin-top: 50px;
+    width: 1200px;
+    height: 100%;
+    text-align: center;
+    color: #FFFFFF;
+    padding: 50px 50px;
+    border-radius: 10px;
+}
+.support-section .support-content{
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 50px 50px;
+    border-radius: 10px;
+}
+.support-content h2{
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.support-content p{
+    font-size: 15px;
+    font-weight: 400;
+    margin-bottom: 20px;
+    color: #FFFFFF;
+}
+.support-section form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.support-section input[type="text"]{
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    margin-right: 10px;
+}
+#support-button{
+    font-size: bold;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: white;
+    color: black;
+    cursor: pointer;
 }
 
 /* <!-- I need Support section The End --> */
