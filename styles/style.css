@@ -72,3 +72,23 @@ nav{
 }
 
 /* Nav + Header section The end  */
+
+/* Why Web Development SECTION Is Start Hear */
+
+.frame-content-one{
+    border: 2px solid rgb(4, 141, 73);
+    width: 1140px;
+    height: 1393px;
+    margin: 50px auto;
+    border-radius: ;
+    border-radius: 16px;
+    background-color: #0D132105;
+}
+.frame-content {
+    color: rgb(14, 12, 9);
+    text-align: center;
+}
+
+.frame-content-two{
+    display: flex;
+}
