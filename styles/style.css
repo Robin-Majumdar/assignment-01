@@ -5,7 +5,6 @@ nav{
     background-color: #e7e5e5;
     color: #0D1321;
     width: 100%;
-    /* height: 100%; */
 }
 
 .nav-content{
@@ -18,6 +17,7 @@ nav{
 .robin{
     font-size: 30px;
     font-weight: bold;
+    /* background-color: #000; */
 }
 .primary-button{
     background-color: #aaaaaa;
